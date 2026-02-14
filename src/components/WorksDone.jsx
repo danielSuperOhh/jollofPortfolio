@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import dieu from "../assets/dieu.PNG";
 import dieuB from "../assets/dieuB.png";
 
-import kiosk from "../assets/kiosk.PNG";
-import kioskB from "../assets/kioskB.png";
+import kiosk from "../assets/kiosk.png";
+import kioskB from "../assets/kioskB.png"
 
 const works = [
   {
