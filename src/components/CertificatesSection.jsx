@@ -2,7 +2,7 @@ import React, { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import dieuB from "../assets/dieuB.png";
-import KioskB from "../assets/KioskB.png";
+import kioskB from "../assets/kioskB.png";
 
 const certificates = [
   {
@@ -15,7 +15,7 @@ const certificates = [
     name: "React + UI Engineering Certificate",
     issuer: "—",
     year: "2025",
-    image: KioskB,
+    image: kioskB,
   },
 ];
 
