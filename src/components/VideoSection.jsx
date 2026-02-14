@@ -1,5 +1,5 @@
 import React from "react";
-import apex from "../assets/apex.mp4";
+import apex from "../assets/apex.MP4";
 
 export default function VideoSection() {
   return (
