@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import dieu from "../assets/dieu.PNG";
 import dieuB from "../assets/dieuB.png";
 
-import kiosk from "../assets/kiosk.png"
+import ciosk from "../assets/ciosk.png"
 import kioskB from "../assets/kioskB.png"
 
 const works = [
@@ -20,7 +20,7 @@ const works = [
     title: "Real-Time Kiosk CMS & Assistant Platform",
     description:
       "A real-time CMS and assistant platform for managing kiosk media, announcements, and user interactions using React and Supabase.",
-    mobileImg: kiosk,
+    mobileImg: ciosk,
     desktopImg: kioskB,
     link: "https://kiosk-display-self.vercel.app/",
   },
