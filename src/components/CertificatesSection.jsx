@@ -1,21 +1,21 @@
 import React, { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import dieuB from "../assets/dieuB.png";
+import cert1 from "../assets/cert1.jpg";
 import kioskB from "../assets/kioskB.png";
 
 const certificates = [
   {
-    name: "Frontend Development Certificate",
+    name: "Certificate of Mentorship",
     issuer: "—",
-    year: "2025",
-    image: dieuB,
+    year: "2024",
+    image: cert1,
   },
   {
     name: "React + UI Engineering Certificate",
     issuer: "—",
-    year: "2025",
-    image: kioskB,
+    year: "2024",
+    // image: kioskB,
   },
 ];
 

@@ -1,30 +1,28 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import VideoSection from './components/VideoSection'
-import CompaniesSection from './components/CompaniesSection'
-import CustomCursor from './components/CustomCursor'
-import WorksDone from './components/WorksDone'
-import CertificatesSection from './components/CertificatesSection'
-import MarqueeSlider from './components/MarqueeSlider'
-import ContactCTA from './components/ContactCTA'
-import Footer from './components/Footer'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-const App = () => {
+import CustomCursor from "./components/CustomCursor";
+import Navbar from "./components/Navbar";
+
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Works from "./pages/Works";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+
+export default function App() {
   return (
-    <div>
+    <div className="min-h-screen bg-white dark:bg-black transition-colors">
       <CustomCursor />
       <Navbar />
-      <Hero />
-      <VideoSection />
-      <CompaniesSection />
-      <WorksDone />
-      <CertificatesSection />
-      <MarqueeSlider />
-      <ContactCTA />
-      <Footer />
-    </div>
-  )
-}
 
-export default App
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/works" element={<Works />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </div>
+  );
+}
