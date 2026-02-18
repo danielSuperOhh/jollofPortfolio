@@ -35,24 +35,7 @@ export default function CopyField({ label, value }) {
       </p>
 
       <div className="mt-2 flex items-center justify-between gap-3 min-w-0">
-        {/* Email text — forced no underline */}
-        <p
-          className="
-            min-w-0 flex-1
-            text-sm sm:text-base
-            font-light
-            text-black/80 dark:text-white/80
-            break-all
-
-            no-underline
-            decoration-transparent
-            underline-offset-0
-
-            hover:no-underline
-            focus:no-underline
-            active:no-underline
-          "
-        >
+        <p className="min-w-0 flex-1 text-sm sm:text-base font-light text-black/80 dark:text-white/80 break-all">
           {value}
         </p>
 
